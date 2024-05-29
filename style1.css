@@ -1,0 +1,159 @@
+.albert-sans-font {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    background-color: #fafdff;
+}
+  
+
+body .left {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+body .right {
+    margin-top:2%;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+}
+
+.banner {
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+  
+.left {
+    width: 16%;
+    padding: 10px;
+    background-color:rgb(231, 231, 231);
+}
+  
+.right {
+    width: 80%;
+    background-color: rgb(216, 216, 216);
+}
+  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.abtPersonImg {
+    width: 100%;
+}
+
+.right .title {
+    text-align: left;
+}
+
+.divbanner {
+    color: #ffffff;
+    padding:150px;
+}
+
+.card {
+    transition: 0.3s;
+    width: 80%;
+    margin: auto;
+}
+
+.cardimg {  
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.cardP{
+    margin-left: 1.1em;
+    margin-top: 1em;
+    font-size: 30px;
+}
+
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 1em;
+    padding: 1em;
+}
+
+.cardcontent{
+    margin: 1em;
+}
+
+b {
+    padding: 2px 16px;
+}
+
+.pageIdentifier {
+    padding:50px;
+}
+
+.inpageNav {
+    /* stuff */
+    color: placeholder;
+}
+
+.pageTitle {
+    margin-left: 50px;
+    border-left: 5px solid #3e5a96;
+    padding: 20px;
+}
+
+.pageSubtitle {
+    margin-left: 0;
+    border-left: 5px solid #3e5a96;
+    padding: 20px;
+}
+
+.darkblue {
+    background-color: #fafdff;
+    color: black;
+}
+.facebg {
+    background-image: url(https://www.w3schools.com/howto/img_avatar.png);
+    background-repeat: no-repeat;
+    height:1920px
+}
+
+.btn-darkblue {
+    color:white;
+    background-color: #3e5a96;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #3e5a96;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.abtme{
+    padding:50px;
+}
+
+@media screen and (max-width: 575px) {
+    .abtme {
+        padding:0px;
+    }
+    
+}
+
+.navtitle {
+    font-size: 25px;
+    margin-right: 25px;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
